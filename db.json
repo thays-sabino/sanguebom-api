@@ -44,9 +44,9 @@
     {"id": 8, "tipo": "O-"}
   ],
   "convocacoes": [
-    {"id": 1, "tipoS": "A+", "urgencia": "critico", "status": "finalizada", "idHemocentro": 1},
-    {"id": 2, "tipoS": "A+", "urgencia": "estavel", "status": "finalizada", "idHemocentro": 2},
-    {"id": 3, "tipoS": "O-", "urgencia": "alerta", "status": "ativa", "idHemocentro": 3}
+    {"id": 1, "tipoS": "A+", "urgencia": "alta", "status": "finalizada", "idHemocentro": 1},
+    {"id": 2, "tipoS": "A+", "urgencia": "baixa", "status": "finalizada", "idHemocentro": 2},
+    {"id": 3, "tipoS": "O-", "urgencia": "media", "status": "ativa", "idHemocentro": 3}
   ],
   "estoques": [
     {"id": 1, "tipoS": "A+", "qtdMl": "2250", "idHemocentro": 1},
