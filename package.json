@@ -1,0 +1,10 @@
+{
+  "name": "sanguebom-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --port ${PORT:-3001} db.json"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
