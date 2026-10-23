@@ -20,8 +20,8 @@
   ],
   "doadores": [
     {"id": 1, "nome": "Doador 1", "email": "usuario4@email.com", "cpf": "111111111", "dtNasc": "01/01/2000", "sexo": "feminino", "celular": "1111-1111", "tipoS": "A+", "idUsuario": 4},
-    {"id": 2, "nome": "Doador 2", "email": "usuario5@email.com", "cpf": "111111111", "dtNasc": "01/01/2000", "sexo": "masculino", "celular": "2222-2222", "tipoS": "A+", "idUsuario": 5},
-    {"id": 3, "nome": "Doador 3", "email": "usuario6@email.com", "cpf": "111111111", "dtNasc": "01/01/2000", "sexo": "masculino", "celular": "3333-3333", "tipoS": "A+", "idUsuario": 6}
+    {"id": 2, "nome": "Doador 2", "email": "usuario5@email.com", "cpf": "111111111", "dtNasc": "01/01/2000", "sexo": "masculino", "celular": "2222-2222", "tipoS": "B-", "idUsuario": 5},
+    {"id": 3, "nome": "Doador 3", "email": "usuario6@email.com", "cpf": "111111111", "dtNasc": "01/01/2000", "sexo": "masculino", "celular": "3333-3333", "tipoS": "O+", "idUsuario": 6}
   ],
   "hemocentros": [
     {"id": 1, "nome": "Hemocentro 1", "email": "usuario7@email.com", "idUsuario": 7},
@@ -44,9 +44,9 @@
     {"id": 8, "tipo": "O-"}
   ],
   "convocacoes": [
-    {"id": 1, "tipoS": "A+", "urgencia": "alta", "status": "finalizada", "idHemocentro": 1},
-    {"id": 2, "tipoS": "A+", "urgencia": "baixa", "status": "finalizada", "idHemocentro": 2},
-    {"id": 3, "tipoS": "O-", "urgencia": "media", "status": "ativa", "idHemocentro": 3}
+    {"id": 1, "tipoS": "A+", "urgencia": "Alta", "status": "Finalizada", "idHemocentro": 1},
+    {"id": 2, "tipoS": "A+", "urgencia": "Baixa", "status": "Finalizada", "idHemocentro": 2},
+    {"id": 3, "tipoS": "O-", "urgencia": "Média", "status": "Ativa", "idHemocentro": 3}
   ],
   "estoques": [
     {"id": 1, "tipoS": "A+", "qtdMl": "2250", "idHemocentro": 1},
@@ -54,9 +54,9 @@
     {"id": 3, "tipoS": "A-", "qtdMl": "2250", "idHemocentro": 3}
   ],
   "solicitacoes": [
-    {"id": 1, "tipoS": "A+", "qtdSolicitada": "1000", "qtdLiberada": "1000", "urgencia": "critico", "status": "finalizada", "idHemocentro": 1, "idInstituicao": 1},
-    {"id": 2, "tipoS": "B+", "qtdSolicitada": "1000", "qtdLiberada": "850", "urgencia": "alerta", "status": "finalizada", "idHemocentro": 2, "idInstituicao": 2},
-    {"id": 3, "tipoS": "A+", "qtdSolicitada": "1000", "qtdLiberada": "1000", "urgencia": "critico", "status": "finalizada", "idHemocentro": 3, "idInstituicao": 3}
+    {"id": 1, "tipoS": "A+", "qtdSolicitada": "1000", "qtdLiberada": "1000", "urgencia": "Alta", "status": "Finalizada", "idHemocentro": 1, "idInstituicao": 1},
+    {"id": 2, "tipoS": "B+", "qtdSolicitada": "1000", "qtdLiberada": "850", "urgencia": "Média", "status": "Finalizada", "idHemocentro": 2, "idInstituicao": 2},
+    {"id": 3, "tipoS": "A+", "qtdSolicitada": "1000", "qtdLiberada": "1000", "urgencia": "Baixa", "status": "Finalizada", "idHemocentro": 3, "idInstituicao": 3}
   ],
   "doacoes": [
     {"id": 1, "tipoS": "A+", "qtdDoada": "1000", "idHemocentro": 1, "idDoador": 1},
