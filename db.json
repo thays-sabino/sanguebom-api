@@ -60,7 +60,7 @@
   ],
   "doacoes": [
     {"id": 1, "tipoS": "A+", "qtdDoada": "1000", "idHemocentro": 1, "idDoador": 1},
-    {"id": 2, "tipoS": "B+", "qtdDoada": "850", "idHemocentro": 2, "idDoador": 2},
+    {"id": 2, "tipoS": "B-", "qtdDoada": "850", "idHemocentro": 2, "idDoador": 2},
     {"id": 3, "tipoS": "A+", "qtdDoada": "1000", "idHemocentro": 3, "idDoador": 3}
   ]
 }
