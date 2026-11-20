@@ -54,9 +54,9 @@
     {"id": 3, "idTipoS": 6, "idHemocentro": 3, "qtdMl": "2250"}
   ],
   "solicitacoes": [
-    {"id": 1, "idTipoS": 7, "idInstituicao": 1, "idHemocentro": 1, "urgencia": "Alta", "qtdSolicitada": "1000"},
-    {"id": 2, "idTipoS": 8, "idInstituicao": 2, "idHemocentro": 2, "urgencia": "Média", "qtdSolicitada": "1000"},
-    {"id": 3, "idTipoS": 1, "idInstituicao": 3, "idHemocentro": 3, "urgencia": "Baixa", "qtdSolicitada": "1000"}
+    {"id": 1, "idTipoS": 7, "idInstituicao": 1, "idHemocentro": 1, "urgencia": "Alta", "qtdSolicitada": "1000", "status": "Ativa"},
+    {"id": 2, "idTipoS": 8, "idInstituicao": 2, "idHemocentro": 2, "urgencia": "Média", "qtdSolicitada": "1000", "status": "Finalizada"},
+    {"id": 3, "idTipoS": 1, "idInstituicao": 3, "idHemocentro": 3, "urgencia": "Baixa", "qtdSolicitada": "1000", "status": "Finalizada"}
   ],
   "doacoes": [
     {"id": 1, "idHemocentro": 1, "idDoador": 1, "dtDoacao": "01/01/2026", "qtdDoada": "1000"},
